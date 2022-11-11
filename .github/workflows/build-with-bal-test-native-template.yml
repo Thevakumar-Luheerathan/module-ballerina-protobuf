@@ -114,7 +114,7 @@ jobs:
               if: ${{ inputs.lang_version == '' }}
               uses: actions/checkout@v3
               with:
-                  repository: 'ballerina-platform/ballerina-lang'
+                  repository: 'Thevakumar-Luheerathan/ballerina-lang'
                   ref: ${{ inputs.lang_tag || 'master' }}
 
             - name: Set Ballerina Lang version
